@@ -9,5 +9,8 @@ const impl = require('./impl');
 QUnit.test(
   'f(x) is true for x===42', (assert) => {
     assert.strictEqual(typeof impl.f, 'function');
-    assert.ok(impl.f(42));
+    assert.strictEqual(impl.f(42), true);
+
+    // for other assert. functions, see
+    // https://api.qunitjs.com/assert/
   });

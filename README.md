@@ -21,3 +21,5 @@ If you want to add QUnit testing to your project, you will need the following:
   }
   ```
 4. run `npm test`
+
+See [QUnit documentation](https://api.qunitjs.com/assert/) for reference.
